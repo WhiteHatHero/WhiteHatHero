@@ -20,3 +20,7 @@ My main technologies are Kubernetes, MCP, Kali tools, Hypervisors, and experienc
 You can find me on [LinkedIn](https://www.linkedin.com/in/jordan-l-warren/) or reach me by [email](mailto:jordan.warren529@gmail.com).
 
 *"I don't know everything, but I'll work to understand anything."*
+
+## AI security research
+
+[**AI Security Mind Map**](https://jordanwarren.org/ai-security/) — an interactive visual guide to AI threats, MCP trust boundaries, and practical controls. [View the board and source](ai-security-mind-map/).
