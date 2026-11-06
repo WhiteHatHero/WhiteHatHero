@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react'
 import { createRoot } from 'react-dom/client'
-import { Tldraw, parseTldrawJsonFile } from 'tldraw'
+import { Tldraw, parseTldrawJsonFile, loadSnapshot } from 'tldraw'
 import 'tldraw/tldraw.css'
 import './style.css'
 
@@ -33,7 +33,7 @@ function App() {
       }
       if (!active) return
 
-      editor.loadSnapshot(result.value.getStoreSnapshot())
+      loadSnapshot(editor.store, result.value.getStoreSnapshot())
       editor.updateInstanceState({ isReadonly: true })
       editor.zoomToFit()
       setIsReady(true)
